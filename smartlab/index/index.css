@@ -1,0 +1,172 @@
+/*smartlab*/
+.smartlab
+{
+    width: 1838px;
+    height: 200px;
+    z-index: -1;
+    position: fixed;
+    top: 50px;
+    border-color: black;
+    background-image:url(images/smartlab_bk.jpg);
+    background-repeat: no-repeat;
+    background-size: 1838px 250px;      /*smartlab图片的高度为200像素，这里背景图片也设置为200像素*/
+}
+.smartlab img
+{
+    position:fixed;  /*相对于视口定位，即时滚动页面，他也始终在同一个位置*/
+    top: 50px;  
+    left: 40%;
+}
+.smartlab_block
+{
+    width: 1838px;
+    height: 250px;
+}
+/*main_content*/
+.box_block
+{
+    width: 100%;
+    height: 755px;
+    background-color: #FFF;
+}
+.main_content
+{
+    width: 1838px;        /*固定最外一层div的长宽，可以保证其中content缩放的时候排版固定*/
+    height: 755px;
+    position:static;
+
+	background-color:#FFF;
+}
+.content_one
+{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-left: 100px;
+}
+.block_one
+{
+    width: 1100px;
+    height: 20px;
+
+}
+.content_one li 
+{
+    float: left;
+    margin: 0 30px;
+
+}
+.content_one li a
+{
+    font-size: 10px;
+    color: darkgrey;
+
+}
+.content_one li a:hover  /*a:hover是，当鼠标所在的链接上，链接变颜色且出现下划线*/
+{
+    color:#00c3b6;
+    text-decoration: underline;
+}
+.content_one ul img
+{
+    float: left;
+    padding-top: 2px;
+    padding-left: 10px;
+}
+/*content_box*/
+.content_box
+{
+    width: 1300;
+    height: 250px;
+    padding-left: 280px;
+}
+.tip
+{
+    float: left;
+    padding-left: 6px;
+    position: relative;
+    height: 250px;
+}
+.tip ul
+{
+    margin-top: 10px;   
+}
+.tip li
+{
+    height: 60px;
+}
+.tip li img
+{
+    border: 4px solid #E1C3A1;
+}
+.box_pt
+{
+    float: left;
+    padding-left: 10px;
+}
+.slider
+{
+    width: 620px;
+    height: 250px;
+    overflow: hidden;
+}
+/*content_end*/
+.font
+{
+    padding: 20px 0;
+    width: 1300px;
+    height: 400px;
+    padding-left: 280px;
+}
+.font .icon_
+{
+    font-family:"icomoon";
+	font-size: 46px;
+    color: #019875;
+	padding:8px;
+}
+.font ul
+{
+    width: 1260px;
+    height: 132px;
+
+
+}
+.font ul li
+{
+    float: left;
+    width: 420px; 
+    text-align: center;
+
+}
+.font ul li .title
+{
+    color: #019875;
+	font-size: 18px;
+    line-height: 60px;
+}
+.font ul li .claim
+{
+    font-size: 12px;
+    line-height: 10px;
+}
+/*box_end*/
+.box_end
+{
+    width: 1300px;
+    height: 270px;
+}
+.end_inner
+{
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 1300px;
+    height: 270px;
+    background-color:#F1F1F1;
+}
+.end_inner img
+{
+    padding-top: 20px;
+    padding-left: 55px;
+}
+

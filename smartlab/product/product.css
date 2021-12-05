@@ -1,0 +1,50 @@
+.platform
+{
+    width: 1838px;
+    height: 486px;
+    background-color: #34576d;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    position: relative;
+    top: 50px;
+}
+.platform img
+{
+    padding-left: 200px;
+}
+.words
+{
+    position: absolute;
+    left: 33%;
+    top: 80px;
+}
+.words h1
+{
+    font-size: 100px;
+    font-weight: 100;
+    color: whitesmoke;
+    padding-left: 110px;
+    letter-spacing: 10px;    /*字体间距*/
+}
+.words p
+{
+    color: whitesmoke;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.platform_box
+{
+    position: absolute;
+    top: 350px;
+    left: 35%;
+}
+.platform_box a
+{
+    color: whitesmoke;
+    font-size: 18px;
+    border: 1px solid whitesmoke;
+    border-radius: 26px;
+    padding: 20px 40px
+}
+
+
