@@ -1,0 +1,169 @@
+﻿h2,h3,i{
+	font-style:normal;
+	font-weight:normal;
+	line-height:1.2;
+}
+.footer{
+	margin-top:0px;
+}
+/* CSS Document */
+.center{
+	width: 1260px;
+	max-width: 1260px;
+	margin: 0 auto;
+}
+.banner{
+	width:100%;
+	height:200px;
+	overflow:hidden;
+	position:fixed;
+	top:50px;
+	left:0;
+	z-index:-1;
+	background:url(../images/banner.jpg) no-repeat;
+        background-size:100% 200px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='http://42.121.130.21/studio/index/images/banner.jpg',sizingMethod='scale');
+}
+.banner img{
+	width:400px;
+	height:200px;
+	margin-left: 36%;
+}
+.banner_block{
+	width:100%;
+	height:250px;
+}
+.main_content{
+	z-index:999;
+	background-color:#FFF;
+}
+.info{
+	padding:15px;
+}
+.info{
+	padding-left: 84px;
+	background: url(../images/info.png) no-repeat 50px 16px;
+}
+.info li a{
+	color:#888;
+}
+.info li a:hover{
+	color:#00c3b6;
+	text-decoration:underline;
+}
+
+.info li{
+	float:left;
+	margin-right:4%;
+}
+.imgBox{
+	padding-top:20px;
+}
+.box_inner{
+	display:inline-block;
+	margin-right:5px;
+}
+
+/*slider*/
+.slider{
+	position:relative;
+	width:752px;
+	height:250px;
+	overflow:hidden;
+}
+.slider li{list-style:none;}
+
+.slider>ul{
+  float:left;
+  position:absolute; 
+  top:0px;
+}
+.slider li{
+	font-size:0;/*去掉图片间的空隙*/
+}
+
+.tip{
+	float:right;
+	position:relative;
+	width:127px;
+	height:50px;
+}
+.tip em{
+	position:absolute;
+	left:-5px;
+	top:9px;
+	display:block;
+	width:127px;
+	height:50px;
+	background:url(../images/current_border.png) no-repeat;
+	z-index:1;
+}
+.tip li{
+	padding:1px;
+	margin-top:8px;
+}
+.tip li img{
+	width:113px;
+	height:42px;
+	border:4px solid #E1C3A1;/*D3D3D3*/
+}
+/*font*/
+.font{
+	padding:20px 0;
+}
+.font p{
+	font-family:"icomoon";
+	font-size: 46px;
+    color: #019875;
+	padding:8px;
+}
+.font ul{
+	height: auto;
+    overflow: hidden;
+}
+.font ul li {
+	width: 420px;
+	float: left;
+	text-align: center;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.font ul li .title {
+	color: #019875;
+	font-size: 18px;
+	line-height: 1;
+	text-transform: capitalize;
+	margin: 0 0 15px;
+	padding: 0;
+}
+.font ul li h3 {
+	font-size: 12px;
+	margin-bottom: 10px;
+	line-height: 18px;
+}
+/*feature*/
+.feature{
+	width:100%;
+	height:200px;
+	padding:5px 0;
+	background-color:#F1F1F1;
+	
+}
+.feaBox{
+	width:250px;
+	height:200px;
+	float:left;
+	margin:0 32px;
+}
+.one{
+	background:url(../images/one.jpg) no-repeat;
+}
+.two{
+	background:url(../images/two.jpg) no-repeat;
+}
+.three{
+	background:url(../images/three.jpg) no-repeat;
+}
+.four{
+	background:url(../images/four.jpg) no-repeat;
+}

@@ -1,0 +1,165 @@
+/* CSS Document */
+body{
+	background-color: #f1f1f1;
+}
+.content{
+	width:980px;
+	margin:100px auto 50px auto;
+	padding-bottom:20px;
+	background-color: #FFF;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+.titleBox{
+	padding: 20px;
+	height: auto;
+	overflow: hidden;
+	border-bottom: 1px solid #e5e5e5;
+}
+.title{
+	font-size: 18px;
+	font-weight: 800;
+	color: #333;
+	margin: 2px auto 7px auto;
+}
+form{
+	padding:20px 0 0 100px;
+}
+.inputBox{
+	width:200px;
+	position:relative;
+	box-shadow:inset 0 1px 2px rgba(0,0,0,0.12);
+	float:left;
+	margin-right:45px;
+}
+.inputBox label{
+	padding:7px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.inputBox i{
+	font-family:"icomoon";
+	font-style:normal;
+	color: #999;
+    font-size: 20px;
+}
+.inputBox span{
+	color: #ea4c89;
+	vertical-align: text-top;
+	margin-left: 3px;
+}
+.inputBox em{
+	display:none;
+	position: absolute;
+	bottom: -22px;
+	font-style:normal;
+	color:#ea4c89;
+	margin-top:10px;
+	padding-left: 47px;
+	background:url(../images/alert.png) no-repeat 30px;
+}
+.inputBox input{
+	outline:none;
+	background-color: transparent;
+	border: 0 none;
+	float: left;
+	color: #333;
+	height: 39px;
+	padding: 10px 0px 10px 45px;
+	box-sizing: border-box;
+	width: 100%;
+	border:1px solid #cbcbcb;
+
+}
+.inputBox input:focus{
+	border:1px solid #00C3B6;
+}
+/*checkbox*/
+.checkbox{
+	width:688px; 
+	height:90px; 
+	border:1px solid #cbcbcb;
+	margin-top:80px;
+}
+.box{
+	margin-top:40px;
+	height:120px;
+}
+.checkbox p{
+	padding:10px;
+}
+.checkbox input[type="checkbox"]{display:none;}
+.checkbox label{
+	line-height:30px;
+	display:block;
+}
+.checkbox ul{
+	padding-left:10px;
+}
+.checkbox ul li{
+	float:left;
+	margin-right:25px;
+}
+
+.costom-checkbox{position:relative;}
+.custom-checkbox label{
+	display:block;
+	position:relative;
+	padding-right:1em;
+	padding:0 0 0 25px;
+	cursor:pointer;
+}
+
+.custom-checkbox label{
+	background:url(../images/checkbox.gif) no-repeat -10px -13px;
+}
+.custom-checkbox label.hover,.custom-checkbox label.focus{  
+    background-position:-10px -113px;
+}
+.custom-checkbox label.checked{
+	background-position:-10px -213px;
+}
+.custom-checkbox label.checkedHover,.custom-checkbox label.checkedFocus{   
+    background-position:-10px -313px;
+}
+.custom-checkbox label.focus{outline:1px dotted #ccc;}
+/*message*/
+.message{
+	width:688px;
+	margin-top:40px;
+	position:relative;
+}
+.message textarea{
+	border: 0 none;
+	background-color: transparent;
+	width: 668px;
+	height: 100px;
+	outline:none;
+	padding:10px;
+	border:1px solid #cbcbcb;
+	resize:none;
+}
+.message textarea:focus{
+	border:1px solid #00C3B6;
+}
+.message input{
+	width: 128px;
+	height: 122px;
+	background-color: #00c3b6;
+	border: 0 none;
+	color: #FFF;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: -130px;
+	outline:none;
+	transition:all ease 0.5s;
+	-moz-transition:all ease 0.5s;
+	-o-transition:all ease 0.5s;
+	-webkit-transition:all ease 0.5s;
+}
+.message input:hover{
+	background-color: #00b5a9;
+}
